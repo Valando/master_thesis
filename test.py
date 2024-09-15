@@ -1,3 +1,3 @@
 import cv2
 
-path = "/sdas"/
+path = 2
