@@ -10,7 +10,7 @@ cv2.imwrite('sift_keypoints.jpg',img) #write the image to folder
 video = cv2.VideoCapture('DJI_0004.MOV')
 
 while video.isOpened():
-    print("w")
+  print("llllllooolll")
 
     ret, frame = video.read()
     # if frame is read correctly ret is True
