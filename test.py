@@ -1,4 +1,5 @@
 import cv2
+import matplotlib.pyplot as plt
 
 # Load the image
 img = cv2.imread("DJI_0001b.jpg")
@@ -67,8 +68,7 @@ while video.isOpened():
     # Exit if 'q' is pressed
     if cv2.waitKey(1) == ord('q'):
         break
-
-cv2.imshow("matches",matches_list[0])
+plt.imshow(matches_list[-1]),plt.show()
 
 # Release the video capture and close windows
 video.release()
