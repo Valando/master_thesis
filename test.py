@@ -23,7 +23,8 @@ search_params = dict(checks=50)
 flann = cv2.FlannBasedMatcher(index_params, search_params)
 
 frame_counter = 0
-matches_list = []
+
+max_good_matches =0
 
 while video.isOpened():
     ret, frame = video.read()
@@ -39,14 +40,26 @@ while video.isOpened():
 
         # Match descriptors using FLANN
         matches = flann.knnMatch(des1, des2, k=2)
-
+       
         # Apply ratio test
-        matchesMask = [[0, 0] for _ in range(len(matches))]
+        matches_list = []
+        matchesMask = []
         for i, match in enumerate(matches):
-            if len(match) == 2:  # Ensure there are at least two matches
+            if len(match) >= 2:  # Ensure there are at least two matches
                 m, n = match
                 if m.distance < 0.7 * n.distance:
-                    matchesMask[i] = [1, 0]
+                    matchesMask.append([1,0])
+                    matches_list.append([m])
+
+ 
+        #assert len(matches_list) == len(matchesMask), "matches_list and matchesMask must be of the same length."
+
+        if len(matches_list) > max_good_matches:
+            max_good_matches = len(matches_list)
+            best_kp2 = kp2
+            best_matches_list = matches_list.copy()
+            best_matchesMask = matchesMask.copy() 
+            best_gray2 = gray2.copy()
 
         # Reset frame counter
         frame_counter = 0
@@ -54,12 +67,12 @@ while video.isOpened():
         # Draw matches
         draw_params = dict(matchColor=(0, 255, 0),
                            singlePointColor=(255, 0, 0),
-                           matchesMask=matchesMask,
+                           matchesMask=best_matchesMask,
                            flags=cv2.DrawMatchesFlags_DEFAULT)
-        img3 = cv2.drawMatchesKnn(gray, kp1, gray2, kp2, matches, None, **draw_params)
+        img3 = cv2.drawMatchesKnn(gray, kp1, best_gray2, best_kp2, best_matches_list, None, **draw_params)
 
         # Save and display the matches
-        matches_list.append(img3)
+       # matches_list.append(img3)
        # cv2.imshow("Matched Features", img3)
 
     # Increment the frame counter
@@ -68,7 +81,7 @@ while video.isOpened():
     # Exit if 'q' is pressed
     if cv2.waitKey(1) == ord('q'):
         break
-plt.imshow(matches_list[-1]),plt.show()
+plt.imshow(img3),plt.show()
 
 # Release the video capture and close windows
 video.release()
