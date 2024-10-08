@@ -4,7 +4,7 @@ import argparse
 
 
 
-cap = cv.VideoCapture("DJI_0004.MOV")
+cap = cv.VideoCapture("phonecam.mp4")
 
 # params for ShiTomasi corner detection
 feature_params = dict( maxCorners = 100,
@@ -52,8 +52,13 @@ while(1):
         mask = cv.line(mask, (int(a), int(b)), (int(c), int(d)), color[i].tolist(), 2)
         frame = cv.circle(frame, (int(a), int(b)), 5, color[i].tolist(), -1)
     img = cv.add(frame, mask)
+    camera_matrix = np.array([[385, 0, 267], [0, 386, 201], [0, 0, 1]], dtype=np.float64)
+    assert len(old) == len(new)
+    old = np.array(old, dtype=np.float64)  # old_points should be a list of points
+    new = np.array(new, dtype=np.float64)
 
-    [E,mask] = cv.findEssentialMat(old,new,[1,1,1K1,1,1])
+    E, mask = cv.findEssentialMat(new, old, camera_matrix, method=cv.RANSAC, prob=0.999, threshold=1.0)
+              
     cv.imshow('frame', img)
     k = cv.waitKey(30) & 0xff
     if k == 27:
