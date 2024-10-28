@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/vn_drone/vn_drone.egg-info/PKG-INFO
+writing dependency_links to ../../build/vn_drone/vn_drone.egg-info/dependency_links.txt
+writing entry points to ../../build/vn_drone/vn_drone.egg-info/entry_points.txt
+writing requirements to ../../build/vn_drone/vn_drone.egg-info/requires.txt
+writing top-level names to ../../build/vn_drone/vn_drone.egg-info/top_level.txt
+reading manifest file '../../build/vn_drone/vn_drone.egg-info/SOURCES.txt'
+writing manifest file '../../build/vn_drone/vn_drone.egg-info/SOURCES.txt'
+running build
+running build_py
+copying vn_drone/image_subsriber.py -> /home/pi/ros2_ws/build/vn_drone/build/lib/vn_drone
+running install
+running install_lib
+copying /home/pi/ros2_ws/build/vn_drone/build/lib/vn_drone/image_subsriber.py -> /home/pi/ros2_ws/install/vn_drone/lib/python3.10/site-packages/vn_drone
+byte-compiling /home/pi/ros2_ws/install/vn_drone/lib/python3.10/site-packages/vn_drone/image_subsriber.py to image_subsriber.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/pi/ros2_ws/install/vn_drone/lib/python3.10/site-packages/vn_drone-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/vn_drone/vn_drone.egg-info to /home/pi/ros2_ws/install/vn_drone/lib/python3.10/site-packages/vn_drone-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/pi/ros2_ws/build/vn_drone/install.log'

@@ -1,0 +1,4 @@
+[console_scripts]
+camera_publisher = camera_publisher_py.camera_publisher:main
+camera_subscriber = camera_publisher_py.camera_subscriber:main
+

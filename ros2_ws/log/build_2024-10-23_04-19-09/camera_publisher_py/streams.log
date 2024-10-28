@@ -1,0 +1,53 @@
+[6.567s] Invoking command in '/home/pi/ros2_ws/src/camera_publisher_py': PYTHONPATH=/home/pi/ros2_ws/build/camera_publisher_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_publisher_py build --build-base /home/pi/ros2_ws/build/camera_publisher_py/build install --record /home/pi/ros2_ws/build/camera_publisher_py/install.log --single-version-externally-managed install_data
+[8.459s] running egg_info
+[8.467s] writing ../../build/camera_publisher_py/camera_publisher_py.egg-info/PKG-INFO
+[8.470s] writing dependency_links to ../../build/camera_publisher_py/camera_publisher_py.egg-info/dependency_links.txt
+[8.473s] writing entry points to ../../build/camera_publisher_py/camera_publisher_py.egg-info/entry_points.txt
+[8.476s] writing requirements to ../../build/camera_publisher_py/camera_publisher_py.egg-info/requires.txt
+[8.480s] writing top-level names to ../../build/camera_publisher_py/camera_publisher_py.egg-info/top_level.txt
+[8.500s] reading manifest file '../../build/camera_publisher_py/camera_publisher_py.egg-info/SOURCES.txt'
+[8.510s] writing manifest file '../../build/camera_publisher_py/camera_publisher_py.egg-info/SOURCES.txt'
+[8.512s] running build
+[8.516s] running build_py
+[8.519s] copying camera_publisher_py/camera_publisher.py -> /home/pi/ros2_ws/build/camera_publisher_py/build/lib/camera_publisher_py
+[8.525s] running install
+[8.529s] running install_lib
+[8.535s] creating /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/log
+[8.546s] creating /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/log/latest_build
+[8.547s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/log/latest_build/events.log -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/log/latest_build
+[8.547s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/log/latest_build/logger_all.log -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/log/latest_build
+[8.549s] creating /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/log/build_2024-10-23_04-19-00
+[8.549s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/log/build_2024-10-23_04-19-00/events.log -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/log/build_2024-10-23_04-19-00
+[8.550s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/log/build_2024-10-23_04-19-00/logger_all.log -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/log/build_2024-10-23_04-19-00
+[8.552s] creating /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/log/latest
+[8.552s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/log/latest/events.log -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/log/latest
+[8.553s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/log/latest/logger_all.log -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/log/latest
+[8.554s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/log/COLCON_IGNORE -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/log
+[8.558s] creating /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/install
+[8.560s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/install/.colcon_install_layout -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/install
+[8.561s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/install/setup.ps1 -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/install
+[8.562s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/install/local_setup.zsh -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/install
+[8.563s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/install/COLCON_IGNORE -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/install
+[8.565s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/install/local_setup.bash -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/install
+[8.567s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/install/setup.zsh -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/install
+[8.570s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/install/setup.bash -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/install
+[8.571s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/install/local_setup.sh -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/install
+[8.575s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/install/_local_setup_util_ps1.py -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/install
+[8.575s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/install/setup.sh -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/install
+[8.578s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/install/_local_setup_util_sh.py -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/install
+[8.579s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/install/local_setup.ps1 -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/install
+[8.580s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/camera_publisher_py/camera_publisher.py -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/camera_publisher_py
+[8.588s] creating /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/build
+[8.589s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/build/COLCON_IGNORE -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/build
+[8.590s] copying /home/pi/ros2_ws/build/camera_publisher_py/build/lib/build/.built_by -> /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/build
+[8.590s] byte-compiling /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/install/_local_setup_util_ps1.py to _local_setup_util_ps1.cpython-310.pyc
+[8.598s] byte-compiling /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/install/_local_setup_util_sh.py to _local_setup_util_sh.cpython-310.pyc
+[8.614s] byte-compiling /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/camera_publisher_py/camera_publisher.py to camera_publisher.cpython-310.pyc
+[8.618s] running install_data
+[8.619s] running install_egg_info
+[8.629s] removing '/home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/camera_publisher_py-0.0.0-py3.10.egg-info' (and everything under it)
+[8.632s] Copying ../../build/camera_publisher_py/camera_publisher_py.egg-info to /home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/camera_publisher_py-0.0.0-py3.10.egg-info
+[8.641s] running install_scripts
+[8.874s] Installing camera_publisher script to /home/pi/ros2_ws/install/camera_publisher_py/lib/camera_publisher_py
+[8.879s] writing list of installed files to '/home/pi/ros2_ws/build/camera_publisher_py/install.log'
+[9.150s] Invoked command in '/home/pi/ros2_ws/src/camera_publisher_py' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/camera_publisher_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_publisher_py build --build-base /home/pi/ros2_ws/build/camera_publisher_py/build install --record /home/pi/ros2_ws/build/camera_publisher_py/install.log --single-version-externally-managed install_data

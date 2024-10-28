@@ -1,0 +1,4 @@
+[console_scripts]
+image_publisher = vn_drone.image_publisher:main
+image_subscriber = vn_drone.image_subscriber:main
+

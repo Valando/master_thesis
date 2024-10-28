@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/vn_drone/vn_drone.egg-info/PKG-INFO
+../../build/vn_drone/vn_drone.egg-info/SOURCES.txt
+../../build/vn_drone/vn_drone.egg-info/dependency_links.txt
+../../build/vn_drone/vn_drone.egg-info/entry_points.txt
+../../build/vn_drone/vn_drone.egg-info/requires.txt
+../../build/vn_drone/vn_drone.egg-info/top_level.txt
+../../build/vn_drone/vn_drone.egg-info/zip-safe
+resource/vn_drone
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+vn_drone/__init__.py
+vn_drone/image_publisher.py
+vn_drone/image_subscriber.py
