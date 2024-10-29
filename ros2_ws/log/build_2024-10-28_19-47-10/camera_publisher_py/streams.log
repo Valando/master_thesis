@@ -1,0 +1,22 @@
+[4.072s] Invoking command in '/home/pi/master_thesis/ros2_ws/src/camera_publisher_py': PYTHONPATH=/home/pi/master_thesis/ros2_ws/build/camera_publisher_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/master_thesis/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_publisher_py build --build-base /home/pi/master_thesis/ros2_ws/build/camera_publisher_py/build install --record /home/pi/master_thesis/ros2_ws/build/camera_publisher_py/install.log --single-version-externally-managed install_data
+[5.201s] running egg_info
+[5.204s] writing ../../build/camera_publisher_py/camera_publisher_py.egg-info/PKG-INFO
+[5.205s] writing dependency_links to ../../build/camera_publisher_py/camera_publisher_py.egg-info/dependency_links.txt
+[5.207s] writing entry points to ../../build/camera_publisher_py/camera_publisher_py.egg-info/entry_points.txt
+[5.207s] writing requirements to ../../build/camera_publisher_py/camera_publisher_py.egg-info/requires.txt
+[5.208s] writing top-level names to ../../build/camera_publisher_py/camera_publisher_py.egg-info/top_level.txt
+[5.216s] reading manifest file '../../build/camera_publisher_py/camera_publisher_py.egg-info/SOURCES.txt'
+[5.221s] writing manifest file '../../build/camera_publisher_py/camera_publisher_py.egg-info/SOURCES.txt'
+[5.222s] running build
+[5.222s] running build_py
+[5.227s] running install
+[5.228s] running install_lib
+[5.240s] running install_data
+[5.242s] running install_egg_info
+[5.249s] removing '/home/pi/master_thesis/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/camera_publisher_py-0.0.0-py3.10.egg-info' (and everything under it)
+[5.251s] Copying ../../build/camera_publisher_py/camera_publisher_py.egg-info to /home/pi/master_thesis/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/camera_publisher_py-0.0.0-py3.10.egg-info
+[5.260s] running install_scripts
+[5.353s] Installing camera_publisher script to /home/pi/master_thesis/ros2_ws/install/camera_publisher_py/lib/camera_publisher_py
+[5.354s] Installing camera_subscriber script to /home/pi/master_thesis/ros2_ws/install/camera_publisher_py/lib/camera_publisher_py
+[5.357s] writing list of installed files to '/home/pi/master_thesis/ros2_ws/build/camera_publisher_py/install.log'
+[5.546s] Invoked command in '/home/pi/master_thesis/ros2_ws/src/camera_publisher_py' returned '0': PYTHONPATH=/home/pi/master_thesis/ros2_ws/build/camera_publisher_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/master_thesis/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_publisher_py build --build-base /home/pi/master_thesis/ros2_ws/build/camera_publisher_py/build install --record /home/pi/master_thesis/ros2_ws/build/camera_publisher_py/install.log --single-version-externally-managed install_data

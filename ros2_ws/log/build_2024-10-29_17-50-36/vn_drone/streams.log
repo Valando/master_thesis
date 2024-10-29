@@ -1,0 +1,22 @@
+[4.121s] Invoking command in '/home/pi/master_thesis/ros2_ws/src/vn_drone': PYTHONPATH=/home/pi/master_thesis/ros2_ws/build/vn_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/master_thesis/ros2_ws/install/vn_drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vn_drone build --build-base /home/pi/master_thesis/ros2_ws/build/vn_drone/build install --record /home/pi/master_thesis/ros2_ws/build/vn_drone/install.log --single-version-externally-managed install_data
+[5.301s] running egg_info
+[5.304s] writing ../../build/vn_drone/vn_drone.egg-info/PKG-INFO
+[5.305s] writing dependency_links to ../../build/vn_drone/vn_drone.egg-info/dependency_links.txt
+[5.307s] writing entry points to ../../build/vn_drone/vn_drone.egg-info/entry_points.txt
+[5.308s] writing requirements to ../../build/vn_drone/vn_drone.egg-info/requires.txt
+[5.309s] writing top-level names to ../../build/vn_drone/vn_drone.egg-info/top_level.txt
+[5.317s] reading manifest file '../../build/vn_drone/vn_drone.egg-info/SOURCES.txt'
+[5.322s] writing manifest file '../../build/vn_drone/vn_drone.egg-info/SOURCES.txt'
+[5.323s] running build
+[5.324s] running build_py
+[5.327s] running install
+[5.339s] running install_lib
+[5.349s] running install_data
+[5.352s] running install_egg_info
+[5.360s] removing '/home/pi/master_thesis/ros2_ws/install/vn_drone/lib/python3.10/site-packages/vn_drone-0.0.0-py3.10.egg-info' (and everything under it)
+[5.360s] Copying ../../build/vn_drone/vn_drone.egg-info to /home/pi/master_thesis/ros2_ws/install/vn_drone/lib/python3.10/site-packages/vn_drone-0.0.0-py3.10.egg-info
+[5.361s] running install_scripts
+[5.450s] Installing image_publisher script to /home/pi/master_thesis/ros2_ws/install/vn_drone/lib/vn_drone
+[5.451s] Installing image_subscriber script to /home/pi/master_thesis/ros2_ws/install/vn_drone/lib/vn_drone
+[5.453s] writing list of installed files to '/home/pi/master_thesis/ros2_ws/build/vn_drone/install.log'
+[5.626s] Invoked command in '/home/pi/master_thesis/ros2_ws/src/vn_drone' returned '0': PYTHONPATH=/home/pi/master_thesis/ros2_ws/build/vn_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/master_thesis/ros2_ws/install/vn_drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vn_drone build --build-base /home/pi/master_thesis/ros2_ws/build/vn_drone/build install --record /home/pi/master_thesis/ros2_ws/build/vn_drone/install.log --single-version-externally-managed install_data

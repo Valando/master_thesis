@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.001627] (camera_publisher_py) JobQueued: {'identifier': 'camera_publisher_py', 'dependencies': OrderedDict()}
+[0.002268] (vn_drone) JobQueued: {'identifier': 'vn_drone', 'dependencies': OrderedDict()}
+[0.002845] (camera_publisher_py) JobStarted: {'identifier': 'camera_publisher_py'}
+[0.043998] (vn_drone) JobStarted: {'identifier': 'vn_drone'}
+[0.099012] (-) TimerEvent: {}
+[0.199647] (-) TimerEvent: {}
+[0.300428] (-) TimerEvent: {}
+[0.401213] (-) TimerEvent: {}
+[0.501994] (-) TimerEvent: {}
+[0.602733] (-) TimerEvent: {}
+[0.703444] (-) TimerEvent: {}
+[0.804103] (-) TimerEvent: {}
+[0.904744] (-) TimerEvent: {}
+[1.005424] (-) TimerEvent: {}
+[1.106200] (-) TimerEvent: {}
+[1.207504] (-) TimerEvent: {}
+[1.308197] (-) TimerEvent: {}
+[1.408915] (-) TimerEvent: {}
+[1.509736] (-) TimerEvent: {}
+[1.610402] (-) TimerEvent: {}
+[1.711071] (-) TimerEvent: {}
+[1.811753] (-) TimerEvent: {}
+[1.912518] (-) TimerEvent: {}
+[2.013189] (-) TimerEvent: {}
+[2.113881] (-) TimerEvent: {}
+[2.214655] (-) TimerEvent: {}
+[2.315667] (-) TimerEvent: {}
+[2.416479] (-) TimerEvent: {}
+[2.517325] (-) TimerEvent: {}
+[2.618710] (-) TimerEvent: {}
+[2.720116] (-) TimerEvent: {}
+[2.821480] (-) TimerEvent: {}
+[2.922281] (-) TimerEvent: {}
+[3.023511] (-) TimerEvent: {}
+[3.124305] (-) TimerEvent: {}
+[3.225073] (-) TimerEvent: {}
+[3.333148] (-) TimerEvent: {}
+[3.434758] (-) TimerEvent: {}
+[3.536363] (-) TimerEvent: {}
+[3.637196] (-) TimerEvent: {}
+[3.739439] (-) TimerEvent: {}
+[3.840609] (-) TimerEvent: {}
+[3.943093] (-) TimerEvent: {}
+[4.045034] (-) TimerEvent: {}
+[4.111882] (camera_publisher_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_publisher_py', 'build', '--build-base', '/home/pi/master_thesis/ros2_ws/build/camera_publisher_py/build', 'install', '--record', '/home/pi/master_thesis/ros2_ws/build/camera_publisher_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/master_thesis/ros2_ws/src/camera_publisher_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.10 33598 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/master_thesis', 'TERM_PROGRAM_VERSION': '1.94.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-27c514b8-b167-416f-892c-17a97d7111d7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pi/master_thesis/ros2_ws/install:/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-452772f58a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pi/master_thesis/ros2_ws/install/vn_drone:/home/pi/master_thesis/ros2_ws/install/camera_publisher_py:/home/pi/ros2_ws/install/vn_drone:/home/pi/ros2_ws/install/camera_publisher_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/master_thesis/ros2_ws/build/camera_publisher_py', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.10 33598 192.168.1.234 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/master_thesis/ros2_ws/build/camera_publisher_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/master_thesis/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages:/home/pi/master_thesis/ros2_ws/install/vn_drone/lib/python3.10/site-packages:/home/pi/master_thesis/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages:/home/pi/ros2_ws/install/vn_drone/lib/python3.10/site-packages:/home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1'}, 'shell': False}
+[4.146309] (-) TimerEvent: {}
+[4.153985] (vn_drone) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/vn_drone', 'build', '--build-base', '/home/pi/master_thesis/ros2_ws/build/vn_drone/build', 'install', '--record', '/home/pi/master_thesis/ros2_ws/build/vn_drone/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/master_thesis/ros2_ws/src/vn_drone', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.10 33598 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/master_thesis', 'TERM_PROGRAM_VERSION': '1.94.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-27c514b8-b167-416f-892c-17a97d7111d7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pi/master_thesis/ros2_ws/install:/home/pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-452772f58a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pi/master_thesis/ros2_ws/install/vn_drone:/home/pi/master_thesis/ros2_ws/install/camera_publisher_py:/home/pi/ros2_ws/install/vn_drone:/home/pi/ros2_ws/install/camera_publisher_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/master_thesis/ros2_ws/build/vn_drone', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.10 33598 192.168.1.234 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/master_thesis/ros2_ws/build/vn_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/master_thesis/ros2_ws/install/vn_drone/lib/python3.10/site-packages:/home/pi/master_thesis/ros2_ws/install/vn_drone/lib/python3.10/site-packages:/home/pi/master_thesis/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages:/home/pi/ros2_ws/install/vn_drone/lib/python3.10/site-packages:/home/pi/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1'}, 'shell': False}
+[4.246535] (-) TimerEvent: {}
+[4.347319] (-) TimerEvent: {}
+[4.449272] (-) TimerEvent: {}
+[4.550073] (-) TimerEvent: {}
+[4.651436] (-) TimerEvent: {}
+[4.752273] (-) TimerEvent: {}
+[4.853046] (-) TimerEvent: {}
+[4.953830] (-) TimerEvent: {}
+[5.056028] (-) TimerEvent: {}
+[5.157627] (-) TimerEvent: {}
+[5.258622] (-) TimerEvent: {}
+[5.311445] (camera_publisher_py) StdoutLine: {'line': b'running egg_info\n'}
+[5.314531] (camera_publisher_py) StdoutLine: {'line': b'writing ../../build/camera_publisher_py/camera_publisher_py.egg-info/PKG-INFO\n'}
+[5.315930] (camera_publisher_py) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_publisher_py/camera_publisher_py.egg-info/dependency_links.txt\n'}
+[5.318053] (camera_publisher_py) StdoutLine: {'line': b'writing entry points to ../../build/camera_publisher_py/camera_publisher_py.egg-info/entry_points.txt\n'}
+[5.319787] (camera_publisher_py) StdoutLine: {'line': b'writing requirements to ../../build/camera_publisher_py/camera_publisher_py.egg-info/requires.txt\n'}
+[5.320744] (camera_publisher_py) StdoutLine: {'line': b'writing top-level names to ../../build/camera_publisher_py/camera_publisher_py.egg-info/top_level.txt\n'}
+[5.332121] (camera_publisher_py) StdoutLine: {'line': b"reading manifest file '../../build/camera_publisher_py/camera_publisher_py.egg-info/SOURCES.txt'\n"}
+[5.337618] (camera_publisher_py) StdoutLine: {'line': b"writing manifest file '../../build/camera_publisher_py/camera_publisher_py.egg-info/SOURCES.txt'\n"}
+[5.339309] (camera_publisher_py) StdoutLine: {'line': b'running build\n'}
+[5.339865] (camera_publisher_py) StdoutLine: {'line': b'running build_py\n'}
+[5.340632] (camera_publisher_py) StdoutLine: {'line': b'copying camera_publisher_py/camera_subscriber.py -> /home/pi/master_thesis/ros2_ws/build/camera_publisher_py/build/lib/camera_publisher_py\n'}
+[5.342076] (camera_publisher_py) StdoutLine: {'line': b'running install\n'}
+[5.343567] (camera_publisher_py) StdoutLine: {'line': b'running install_lib\n'}
+[5.354298] (camera_publisher_py) StdoutLine: {'line': b'copying /home/pi/master_thesis/ros2_ws/build/camera_publisher_py/build/lib/camera_publisher_py/camera_subscriber.py -> /home/pi/master_thesis/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/camera_publisher_py\n'}
+[5.358772] (-) TimerEvent: {}
+[5.359806] (camera_publisher_py) StdoutLine: {'line': b'byte-compiling /home/pi/master_thesis/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/camera_publisher_py/camera_subscriber.py to camera_subscriber.cpython-310.pyc\n'}
+[5.366697] (camera_publisher_py) StdoutLine: {'line': b'running install_data\n'}
+[5.369766] (vn_drone) StdoutLine: {'line': b'running egg_info\n'}
+[5.371835] (camera_publisher_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.373125] (vn_drone) StdoutLine: {'line': b'writing ../../build/vn_drone/vn_drone.egg-info/PKG-INFO\n'}
+[5.376745] (vn_drone) StdoutLine: {'line': b'writing dependency_links to ../../build/vn_drone/vn_drone.egg-info/dependency_links.txt\n'}
+[5.377337] (vn_drone) StdoutLine: {'line': b'writing entry points to ../../build/vn_drone/vn_drone.egg-info/entry_points.txt\n'}
+[5.377794] (vn_drone) StdoutLine: {'line': b'writing requirements to ../../build/vn_drone/vn_drone.egg-info/requires.txt\n'}
+[5.378703] (vn_drone) StdoutLine: {'line': b'writing top-level names to ../../build/vn_drone/vn_drone.egg-info/top_level.txt\n'}
+[5.379237] (camera_publisher_py) StdoutLine: {'line': b"removing '/home/pi/master_thesis/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/camera_publisher_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.379762] (camera_publisher_py) StdoutLine: {'line': b'Copying ../../build/camera_publisher_py/camera_publisher_py.egg-info to /home/pi/master_thesis/ros2_ws/install/camera_publisher_py/lib/python3.10/site-packages/camera_publisher_py-0.0.0-py3.10.egg-info\n'}
+[5.383903] (vn_drone) StdoutLine: {'line': b"reading manifest file '../../build/vn_drone/vn_drone.egg-info/SOURCES.txt'\n"}
+[5.386856] (camera_publisher_py) StdoutLine: {'line': b'running install_scripts\n'}
+[5.388522] (vn_drone) StdoutLine: {'line': b"writing manifest file '../../build/vn_drone/vn_drone.egg-info/SOURCES.txt'\n"}
+[5.389631] (vn_drone) StdoutLine: {'line': b'running build\n'}
+[5.390337] (vn_drone) StdoutLine: {'line': b'running build_py\n'}
+[5.391774] (vn_drone) StdoutLine: {'line': b'running install\n'}
+[5.393148] (vn_drone) StdoutLine: {'line': b'running install_lib\n'}
+[5.400631] (vn_drone) StdoutLine: {'line': b'running install_data\n'}
+[5.401413] (vn_drone) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.409848] (vn_drone) StdoutLine: {'line': b"removing '/home/pi/master_thesis/ros2_ws/install/vn_drone/lib/python3.10/site-packages/vn_drone-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.411871] (vn_drone) StdoutLine: {'line': b'Copying ../../build/vn_drone/vn_drone.egg-info to /home/pi/master_thesis/ros2_ws/install/vn_drone/lib/python3.10/site-packages/vn_drone-0.0.0-py3.10.egg-info\n'}
+[5.420112] (vn_drone) StdoutLine: {'line': b'running install_scripts\n'}
+[5.458958] (-) TimerEvent: {}
+[5.480752] (camera_publisher_py) StdoutLine: {'line': b'Installing camera_publisher script to /home/pi/master_thesis/ros2_ws/install/camera_publisher_py/lib/camera_publisher_py\n'}
+[5.481811] (camera_publisher_py) StdoutLine: {'line': b'Installing camera_subscriber script to /home/pi/master_thesis/ros2_ws/install/camera_publisher_py/lib/camera_publisher_py\n'}
+[5.483795] (camera_publisher_py) StdoutLine: {'line': b"writing list of installed files to '/home/pi/master_thesis/ros2_ws/build/camera_publisher_py/install.log'\n"}
+[5.535706] (vn_drone) StdoutLine: {'line': b'Installing image_publisher script to /home/pi/master_thesis/ros2_ws/install/vn_drone/lib/vn_drone\n'}
+[5.537671] (vn_drone) StdoutLine: {'line': b'Installing image_subscriber script to /home/pi/master_thesis/ros2_ws/install/vn_drone/lib/vn_drone\n'}
+[5.540913] (vn_drone) StdoutLine: {'line': b"writing list of installed files to '/home/pi/master_thesis/ros2_ws/build/vn_drone/install.log'\n"}
+[5.559322] (-) TimerEvent: {}
+[5.663335] (camera_publisher_py) CommandEnded: {'returncode': 0}
+[5.678297] (-) TimerEvent: {}
+[5.739151] (camera_publisher_py) JobEnded: {'identifier': 'camera_publisher_py', 'rc': 0}
+[5.744397] (vn_drone) CommandEnded: {'returncode': 0}
+[5.774944] (vn_drone) JobEnded: {'identifier': 'vn_drone', 'rc': 0}
+[5.777874] (-) EventReactorShutdown: {}

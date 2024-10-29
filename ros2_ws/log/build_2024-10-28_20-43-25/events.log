@@ -1,0 +1,23 @@
+[0.000000] (-) TimerEvent: {}
+[0.001839] (camera_publisher_py) JobQueued: {'identifier': 'camera_publisher_py', 'dependencies': OrderedDict()}
+[0.002482] (vn_drone) JobQueued: {'identifier': 'vn_drone', 'dependencies': OrderedDict()}
+[0.002978] (camera_publisher_py) JobStarted: {'identifier': 'camera_publisher_py'}
+[0.045698] (vn_drone) JobStarted: {'identifier': 'vn_drone'}
+[0.098837] (-) TimerEvent: {}
+[0.199583] (-) TimerEvent: {}
+[0.300397] (-) TimerEvent: {}
+[0.401106] (-) TimerEvent: {}
+[0.501747] (-) TimerEvent: {}
+[0.602455] (-) TimerEvent: {}
+[0.703142] (-) TimerEvent: {}
+[0.803816] (-) TimerEvent: {}
+[0.904495] (-) TimerEvent: {}
+[1.005178] (-) TimerEvent: {}
+[1.106086] (-) TimerEvent: {}
+[1.207017] (-) TimerEvent: {}
+[1.307719] (-) TimerEvent: {}
+[1.408484] (-) TimerEvent: {}
+[1.509162] (-) TimerEvent: {}
+[1.585632] (vn_drone) JobEnded: {'identifier': 'vn_drone', 'rc': 0}
+[1.589305] (camera_publisher_py) JobEnded: {'identifier': 'camera_publisher_py', 'rc': 'SIGINT'}
+[1.600537] (-) EventReactorShutdown: {}
